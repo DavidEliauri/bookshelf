@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    import { TheHeader } from '@/widgets/header/';
+</script>
 
 <template>
     <div>
-        <div>Layout header</div>
+        <TheHeader />
 
         <slot />
 
